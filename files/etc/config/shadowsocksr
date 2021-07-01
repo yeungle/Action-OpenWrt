@@ -17,15 +17,15 @@ config global
 	option netflix_server 'same'
 	option run_mode 'gfw'
 	option pdnsd_enable '0'
-	option global_server 'cfg2d4a8f'
+	option global_server 'cfg274a8f'
 
 config server_subscribe
 	option proxy '0'
 	option auto_update_time '2'
 	option auto_update '1'
 	list subscribe_url 'https://sss.99dingyue.top/api/v1/client/subscribe?token=c4c32cd74bf3db022313bb8b3e116109'
-	option switch '1'
 	option filter_words '过期时间/剩余流量/QQ群/官网/防失联地址/回国/教程'
+	option switch '1'
 
 config access_control
 	option lan_ac_mode '0'
@@ -55,6 +55,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯奈非001B'
 	option server 'e001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -67,6 +68,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯奈非002B'
 	option server 'e002.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -79,6 +81,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯奈非003B'
 	option server 'e003.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -91,6 +94,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯奈非004B'
 	option server 'e004.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -103,6 +107,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯奈非005B'
 	option server 'e005.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -115,6 +120,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯奈非006B'
 	option server 'e006.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -127,6 +133,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯奈非007B'
 	option server 'e007.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -139,6 +146,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯体验010B'
 	option server 'e010.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -151,6 +159,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '印度极速001B'
 	option server 'dd001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -163,6 +172,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '印度极速002B'
 	option server 'dd002.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -175,6 +185,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '印度极速003B'
 	option server 'dd003.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -187,6 +198,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '印度极速004B'
 	option server 'dd004.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -199,6 +211,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '印度体验005B'
 	option server 'dd005.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -211,6 +224,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速011B'
 	option server 'rr011.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -223,6 +237,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速012B'
 	option server 'rr012.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -235,6 +250,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速013B'
 	option server 'rr013.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -247,6 +263,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速014B'
 	option server 'rr014.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -259,6 +276,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速015B'
 	option server 'rr015.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -271,6 +289,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速016B'
 	option server 'rr016.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -283,6 +302,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速017B'
 	option server 'rr017.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -295,6 +315,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速018B'
 	option server 'rr018.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -307,6 +328,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本极速019B'
 	option server 'rr019.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -319,6 +341,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本体验020B'
 	option server 'rr020.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -331,6 +354,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京001BB'
 	option server 'rr001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -343,6 +367,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京002B'
 	option server 'rr002.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -355,6 +380,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京003B'
 	option server 'rr003.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -367,6 +393,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京004B'
 	option server 'rr004.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -379,6 +406,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京005B'
 	option server 'rr005.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -391,6 +419,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京006B'
 	option server 'rr006.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -403,6 +432,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京007B'
 	option server 'rr007.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -415,6 +445,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京008B'
 	option server 'rr008.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -427,6 +458,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本东京009B'
 	option server 'rr009.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -439,6 +471,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '台湾奈飞哔站001B'
 	option server 't001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -451,6 +484,8 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '台湾奈飞哔站002B'
 	option server 't002.zhuan666.top'
+	option switch_enable '0'
+	option ip '111.19.171.10'
 
 config servers
 	option type 'ss'
@@ -463,6 +498,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '台湾奈飞哔站003B'
 	option server 't003.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -475,6 +511,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '台湾奈飞哔站004B'
 	option server 't004.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -487,6 +524,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '台湾奈飞哔站005B'
 	option server 't005.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -499,6 +537,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '台湾本土店铺专用B'
 	option server 'td001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -511,6 +550,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '香港奈非极速001B'
 	option server 'h001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -523,7 +563,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '香港奈非极速003B'
 	option server 'h003.zhuan666.top'
-	option ip '123.138.240.21'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -536,6 +576,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '香港奈非极速004B'
 	option server 'h004.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -548,6 +589,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '香港奈非体验005B'
 	option server 'h005.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -560,6 +602,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '美国极速001B'
 	option server 'mm001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -572,6 +615,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '美国极速002B'
 	option server 'mm002.zhuan666.top'
+	option switch_enable '0'
 	option ip '111.19.171.9'
 
 config servers
@@ -585,6 +629,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '美国极速003B'
 	option server 'mm003.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -597,6 +642,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '美国极速004B'
 	option server 'mm004.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -609,6 +655,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '美国体验005B'
 	option server 'mm005.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -621,6 +668,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '新加坡极速001B'
 	option server 'xx001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -633,6 +681,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '新加坡极速002B'
 	option server 'xx002.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -645,6 +694,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '新加坡极速003B'
 	option server 'xx003.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -657,6 +707,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '英国节点001B'
 	option server 'yy001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option type 'ss'
@@ -669,6 +720,7 @@ config servers
 	option password '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '韩国节点001B'
 	option server 'hg001.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option ws_host 'baidu.com'
@@ -685,6 +737,7 @@ config servers
 	option vmess_id '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本低速免001A'
 	option server 'rm001.v2ray008.top'
+	option switch_enable '0'
 
 config servers
 	option ws_host 'baidu.com'
@@ -701,6 +754,7 @@ config servers
 	option vmess_id '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本低速免002A'
 	option server 'rm002.v2ray008.top'
+	option switch_enable '0'
 
 config servers
 	option ws_host 'baidu.com'
@@ -717,6 +771,7 @@ config servers
 	option vmess_id '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯低速免008A'
 	option server 'em003.v2ray008.top'
+	option switch_enable '0'
 
 config servers
 	option ws_host 'baidu.com'
@@ -733,6 +788,7 @@ config servers
 	option vmess_id '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '俄罗斯低速免009A'
 	option server 'em004.v2ray008.top'
+	option switch_enable '0'
 
 config servers
 	option ws_host 'baidu.com'
@@ -749,6 +805,7 @@ config servers
 	option vmess_id '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本高速免008B'
 	option server 'rm005.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option ws_host 'baidu.com'
@@ -765,6 +822,7 @@ config servers
 	option vmess_id '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias '日本高速免009B'
 	option server 'rm006.zhuan666.top'
+	option switch_enable '0'
 
 config servers
 	option ws_host 'baidu.com'
@@ -781,3 +839,4 @@ config servers
 	option vmess_id '58b6d2c0-e073-11ea-ace4-39e0fff27c8b'
 	option alias 'https://github.com/i2ii/i'
 	option server 'cesh6.v2ray008.top'
+	option switch_enable '0'
