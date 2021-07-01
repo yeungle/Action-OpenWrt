@@ -1,0 +1,15 @@
+
+config global
+	option out '0'
+	option stop '100'
+	option remote_url 'https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js'
+	option auto_update '1'
+	option auto_update_time '23'
+	option auto_run '1'
+	option auto_run_time '0'
+	option auto_run_time_m '1'
+	option auto_run_time_h '1'
+	option serverurl 'sct'
+	option serverchan 'SCT17195TxlTi77k9KRuUvdEA1JQ8nYJ0'
+	list Cookies 'pt_key=AAJgsYm8ADCCzsOX4e9NnMKNUtV4zzcNl6gBpk0tRUXl8BlKpyoAvvW74_L0o3nllZiNofQOJbc;pt_pin=kkg9g;'
+	option version '2.0.5'
