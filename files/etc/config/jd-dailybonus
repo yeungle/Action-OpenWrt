@@ -11,5 +11,5 @@ config global
 	option auto_run_time_h '1'
 	option serverurl 'sct'
 	option serverchan 'SCT17195TxlTi77k9KRuUvdEA1JQ8nYJ0'
-	list Cookies 'pt_key=AAJgsYm8ADCCzsOX4e9NnMKNUtV4zzcNl6gBpk0tRUXl8BlKpyoAvvW74_L0o3nllZiNofQOJbc;pt_pin=kkg9g;'
 	option version '2.0.5'
+	list Cookies 'pt_key=AAJg39W3ADAY6QXLiiFQgfbF7FBthM7IhfQtUDkJWkCBsZyB5of8wP6RUkm4yk99mZaliH2eQFc;pt_pin=kkg9g;'
