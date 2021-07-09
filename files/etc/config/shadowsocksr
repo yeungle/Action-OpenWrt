@@ -17,7 +17,7 @@ config global
 	option netflix_server 'same'
 	option run_mode 'gfw'
 	option pdnsd_enable '0'
-	option global_server 'cfg274a8f'
+	option global_server 'cfg2d4a8f'
 
 config server_subscribe
 	option proxy '0'
@@ -564,6 +564,7 @@ config servers
 	option alias '香港奈非极速003B'
 	option server 'h003.zhuan666.top'
 	option switch_enable '0'
+	option ip '123.138.240.21'
 
 config servers
 	option type 'ss'
