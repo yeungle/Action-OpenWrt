@@ -57,3 +57,10 @@ config host
 	option mac 'e8:9f:80:45:25:28'
 	option ip '10.0.1.10'
 	option leasetime '12h'
+
+config host
+	option name 'MyCloud'
+	option dns '1'
+	option mac '00:14:ee:03:7e:d6'
+	option ip '10.0.1.12'
+	option leasetime '12h'
