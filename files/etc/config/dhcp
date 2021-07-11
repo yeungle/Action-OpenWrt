@@ -59,7 +59,7 @@ config host
 	option leasetime '12h'
 
 config host
-	option name 'MyCloud'
+	option name 'MyCloudHomeDuo'
 	option dns '1'
 	option mac '00:14:ee:03:7e:d6'
 	option ip '10.0.1.12'
