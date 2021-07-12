@@ -10,7 +10,6 @@ rm -rf package/lean/luci-theme-argon
 
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/smartdns
 
-
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-app-smartdns
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
