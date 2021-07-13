@@ -20,6 +20,7 @@ git clone https://github.com/yeungle/luci-app-autotimeset.git package/luci-app-a
 git clone https://github.com/yeungle/luci-app-onliner.git package/luci-app-onliner
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 git clone https://github.com/vernesong/OpenClash.git -b master package/luci-app-openclash
+git clone https://github.com/project-lede/luci-app-godproxy package/luci-app-godproxy
 git clone https://github.com/jerrykuku/luci-theme-argon.git -b 18.06 package/luci-theme-argon
 git clone https://github.com/fatelpc/luci-theme-edge.git package/luci-theme-edge
 
