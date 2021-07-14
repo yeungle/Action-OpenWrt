@@ -8,5 +8,5 @@ config adbyby
 	option mem_mode '1'
 	option update_source '1'
 	option block_cnshort '0'
-	option enable '1'
 	list subscribe_url 'https://anti-ad.net/easylist.txt'
+	option enable '0'
