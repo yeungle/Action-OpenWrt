@@ -24,8 +24,8 @@ config smartdns
 	option seconddns_no_dualstack_selection '1'
 	option enabled '1'
 	option seconddns_port '5335'
-	option redirect 'dnsmasq-upstream'
-	list old_redirect 'dnsmasq-upstream'
+	option redirect 'none'
+	list old_redirect 'none'
 	list old_port '6053'
 	list old_enabled '1'
 
