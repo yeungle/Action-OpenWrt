@@ -12,7 +12,7 @@ config global
 	option udp_node 'tcp'
 	option dns_mode 'custom'
 	option tcp_proxy_mode 'gfwlist'
-	option enabled '1'
+	option enabled '0'
 	option custom_dns '127.0.0.1#7913'
 	option tcp_node 'b9eec34ba1ee4f22a419c76a33c221d6'
 
