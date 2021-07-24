@@ -12,4 +12,4 @@ config global
 	option serverurl 'sct'
 	option serverchan 'SCT17195TxlTi77k9KRuUvdEA1JQ8nYJ0'
 	option version '2.0.5'
-	list Cookies 'pt_key=AAJg8mHoADDEsoFHTAWDSWnCznz2XGzLjgp7SZw4XfdH859fqbviU-xJJGe-NOJJTjbNGE-RIXc;pt_pin=kkg9g;'
+	list Cookies 'pt_key=AAJg_AYuADCiZunvxVndCLCVMmetXU-H3xYYqmgp7JHTJv7dC1l754Linu298MjZWMo981FFAfE;pt_pin=kkg9g;'
