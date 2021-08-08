@@ -13,8 +13,8 @@ config global
 	option custom_dns '127.0.0.1#7913'
 	option enabled '1'
 	option tcp_node 'd8b55698ebd64dcd93bf72d0bc0c8639'
-	option tcp_proxy_mode 'chnroute'
-	option udp_proxy_mode 'chnroute'
+	option tcp_proxy_mode 'gfwlist'
+	option udp_proxy_mode 'gfwlist'
 
 config global_haproxy
 	option balancing_enable '0'
