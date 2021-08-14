@@ -16,7 +16,7 @@ git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-a
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
-git clone https://github.com/yeungle/luci-app-autotimeset.git package/luci-app-autotimeset
+git clone https://github.com/yeungle/luci-app-onliner.git package/luci-app-onliner
 git clone https://github.com/jerrykuku/luci-theme-argon.git -b 18.06 package/luci-theme-argon
 git clone https://github.com/fatelpc/luci-theme-edge.git package/luci-theme-edge
 
