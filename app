@@ -32,6 +32,7 @@ CONFIG_PACKAGE_luci-app-samba=y
 CONFIG_PACKAGE_luci-app-serverchan=y
 CONFIG_PACKAGE_luci-app-smartdns=y
 CONFIG_PACKAGE_luci-app-sqm=y
+CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-transmission=y
 CONFIG_PACKAGE_luci-app-ttnode=y
 CONFIG_PACKAGE_luci-app-ttyd=y
