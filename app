@@ -1,4 +1,5 @@
 CONFIG_PACKAGE_luci-app-accesscontrol=y
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-app-airplay2=y
 CONFIG_PACKAGE_luci-app-aria2=y
