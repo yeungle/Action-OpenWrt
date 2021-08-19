@@ -34,10 +34,6 @@ config interface 'wan6'
 	option ifname 'eth1'
 	option proto 'dhcpv6'
 
-config interface 'vpn0'
-	option ifname 'tun0'
-	option proto 'none'
-
 config interface 'docker'
 	option ifname 'docker0'
 	option proto 'none'
@@ -47,3 +43,7 @@ config device 'docker0'
 	option type 'bridge'
 	option name 'docker0'
 	list ifname 'docker0'
+
+config interface 'vpn0'
+	option ifname 'tun0'
+	option proto 'none'
