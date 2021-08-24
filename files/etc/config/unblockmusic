@@ -1,0 +1,6 @@
+
+config unblockmusic
+	option endpoint 'http://music.163.com'
+	option apptype 'cloud'
+	option cloudserver 'cdn-shanghai.service.project-openwrt.eu.org:30000:30001'
+	option enabled '1'
