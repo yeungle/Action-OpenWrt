@@ -1,7 +1,0 @@
-
-config cifs
-	option workgroup 'WORKGROUP'
-	option iocharset 'utf8'
-	option delay '5'
-	option mountarea '/mnt'
-	option enabled '1'
