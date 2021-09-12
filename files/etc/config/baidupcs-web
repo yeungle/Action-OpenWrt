@@ -1,0 +1,5 @@
+
+config baidupcs-web 'config'
+	option enabled '1'
+	option port '5299'
+	option download_dir '/opt/baidupcsweb-download'
