@@ -1,0 +1,6 @@
+
+config forked-daapd
+	option port '3689'
+	option directories '/opt/music'
+	option db_path '/opt/songs.db'
+	option enabled '1'
