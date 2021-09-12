@@ -13,16 +13,32 @@ config global
 	option nfip_url 'https://cdn.jsdelivr.net/gh/QiuSimons/Netflix_IP/NF_only.txt'
 	option run_mode 'gfw'
 	option pdnsd_enable '0'
-	option global_server 'cfg234a8f'
 	option udp_relay_server 'same'
 	option netflix_enable '1'
 	option adblock '0'
 	option netflix_server 'same'
+	option global_server 'nil'
 
 config server_subscribe
 	option proxy '0'
 	option auto_update_time '2'
 	option auto_update '1'
-	list subscribe_url 'https://sss.99dingyue.top'
 	option filter_words '过期时间/剩余流量/QQ群/官网/防失联地址/回国/教程/免/体验/https'
 	option switch '1'
+
+config access_control
+	option lan_ac_mode '0'
+	option router_proxy '1'
+	list wan_fw_ips '149.154.160.0/20'
+	list wan_fw_ips '67.198.55.0/24'
+	list wan_fw_ips '91.108.4.0/22'
+	list wan_fw_ips '91.108.56.0/22'
+	list wan_fw_ips '109.239.140.0/24'
+	list Interface 'lan'
+
+config socks5_proxy
+	option server 'nil'
+	option local_port '1080'
+
+config server_global
+	option enable_server '0'
