@@ -27,8 +27,8 @@ config dhcp 'lan'
 	option ra_slaac '1'
 	list ra_flags 'managed-config'
 	list ra_flags 'other-config'
-	option start '100'
-	option limit '154'
+	option start '10'
+	option limit '40'
 	option ra_management '1'
 
 config dhcp 'wan'
@@ -52,19 +52,19 @@ config host
 	option name 'Linksys'
 	option dns '1'
 	option mac 'e8:9f:80:45:25:28'
-	option ip '192.168.1.100'
+	option ip '10.0.1.10'
 	option leasetime '12h'
 
 config host
 	option name 'MyCloudHomeDuo'
 	option dns '1'
 	option mac '00:14:ee:03:7e:d6'
-	option ip '192.168.1.102'
+	option ip '10.0.1.12'
 	option leasetime '12h'
 
 config host
 	option name 'DS918'
 	option dns '1'
 	option mac '00:11:32:82:63:97'
-	option ip '192.168.1.101'
+	option ip '10.0.1.11'
 	option leasetime '12h'
