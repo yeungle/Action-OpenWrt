@@ -28,7 +28,7 @@ config dhcp 'lan'
 	list ra_flags 'managed-config'
 	list ra_flags 'other-config'
 	option start '100'
-	option limit '155'
+	option limit '154'
 	option ra_management '1'
 
 config dhcp 'wan'
