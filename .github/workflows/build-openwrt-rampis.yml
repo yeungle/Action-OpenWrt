@@ -38,8 +38,8 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-    - name: WeChat notification
-      run: curl https://sctapi.ftqq.com/${{ secrets.ServerChan }}.send?title=OpenWrt-rampis开始编译
+#   - name: WeChat notification
+#     run: curl https://sctapi.ftqq.com/${{ secrets.ServerChan }}.send?title=OpenWrt-rampis开始编译
       
     - name: Checkout
       uses: actions/checkout@main
@@ -192,6 +192,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: WeChat notification
-      if: steps.tag.outputs.status == 'success' && !cancelled()
-      run: curl https://sctapi.ftqq.com/${{ secrets.ServerChan }}.send?title=OpenWrt-rampis发布成功
+#   - name: WeChat notification
+#     if: steps.tag.outputs.status == 'success' && !cancelled()
+#     run: curl https://sctapi.ftqq.com/${{ secrets.ServerChan }}.send?title=OpenWrt-rampis发布成功
