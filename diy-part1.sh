@@ -18,13 +18,13 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-rm -rf feeds/packages/net/smartdns
+# rm -rf feeds/packages/net/smartdns
 # rm -rf package/lean/luci-theme-argon
 
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/smartdns
+# svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/smartdns
 
 # git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
-git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-app-smartdns
+# git clone https://github.com/pymumu/luci-app-smartdns.git -b lede package/luci-app-smartdns
 # git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 # git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
